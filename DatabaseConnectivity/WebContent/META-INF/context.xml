@@ -1,0 +1,17 @@
+<context>
+
+<Resource name="jdbc/project"
+       
+          auth="Container" type="javax.sql.DataSource"
+          
+          maxActive="25" maxIdle="5" maxWait="10000"
+          
+          username="root" password="1234"
+          
+          driverClassName="com.mysql.jdbc.Driver"
+          
+          url="jdbc:mysql://Localhost:3306/radha?useSSL=false"/>
+        
+
+
+</context>
